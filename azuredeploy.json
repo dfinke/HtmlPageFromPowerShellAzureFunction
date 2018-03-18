@@ -12,7 +12,7 @@
     "variables": {
       "storageName": "[concat('function', uniqueString(parameters('siteName')))]",
       "contentShareName": "[toLower(parameters('siteName'))]",
-      "repoUrl": "https://github.com/dfinke/WhatToBring",
+      "repoUrl": "https://github.com/dfinke/HtmlPageFromPowerShellAzureFunction",
       "branch": "master"
     },
     "resources": [
